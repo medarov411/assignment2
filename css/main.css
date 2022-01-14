@@ -1,0 +1,169 @@
+body {
+    background: #221e31!important;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.for_align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    padding: 40px 0;
+}
+
+.title__heading {
+    color: #fff;
+}
+
+.title__heading span {
+    color: #00fdf0;
+}
+
+.title__btn {
+    background: #00b1a8!important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title label {
+    color: #00b1a8;
+}
+
+.features {
+    padding-bottom: 40px;
+}
+
+.features__img img {
+    width: 80%;
+}
+
+.features__info {
+    color: #fff;
+}
+.features__info span {
+    color: #00b1a8;
+}
+
+.features__info h3 {
+    color: #e8a767;
+    margin-top: 30px;
+}
+
+
+.testimontials {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.carousel__img {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.carousel__img img {
+    width: 240px;
+}
+
+.testimontials__info {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.testimontials__info span  {
+    color: #00fdf0;
+}
+
+.carousel-control-next {
+    right: -15%!important;
+}
+
+.carousel-control-next-icon {
+    width: 1.5rem!important;
+    height: 1.5rem!important;
+}
+
+.carousel-control-prev-icon {
+    width: 1.5rem!important;
+    height: 1.5rem!important;
+}
+
+.carousel-control-prev {
+    left: -15%!important;
+}
+
+@media screen and (max-width: 1200px) {
+    .carousel__img img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .testimontials__info {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .for-order {
+        order: 1!important;
+    }
+
+    .for-order-2 {
+        order: 2!important;
+    }
+
+    .carousel__img img {
+        width: 240px;
+    }
+
+    .carousel-control-next {
+        right: -10%!important;
+    }
+
+    .carousel-control-prev {
+        left: -10%!important;
+    }
+
+    .features__img {
+        margin-bottom: 40px;
+    }
+
+    .title__heading  {
+        margin-bottom: 40px;
+    }
+
+    .carousel-control-next, .carousel-control-prev  {
+        top: 100%!important;
+        margin-top: 50px;
+    }
+
+    .carousel-control-next {
+        right: 35%!important;
+    }
+
+    .carousel-control-prev {
+        left: 35%!important;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .carousel__img img {
+        width: 45%;
+    }
+
+    .carousel__img {
+        height: auto;
+    }
+
+    .testimontials {
+        padding-top: 20px;
+    }
+}
